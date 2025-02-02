@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Booth Rentals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .hero-image {
+            background-image: linear-gradient(rgb(17 69 74 / 58%), rgb(14 179 42 / 53%)),url('salon-cool.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        .ready-image {
+            background-image: linear-gradient(rgb(21 104 147 / 74%), rgb(0 0 0 / 75%)),url('salon-1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 400px;
+        }
+        .works-image {
+            background-image: linear-gradient(rgb(21 104 147 / 74%), rgb(0 0 0 / 75%)),url('salon-seat.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Salon Booth Rentals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#why-choose-us">Why Choose Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#featured-listings">Featured Listings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#success-stories">Success Stories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-image d-flex align-items-center">
+        <div class="container text-center text-white w-75">
+            <h1 class="display-4 fw-bold mb-4">Find Your Dream Salon Booth in Minutes!</h1>
+            <p class="lead mb-4">Whether you're a salon owner renting out booths or a stylist looking for the perfect space, our platform makes it easy to connect and thrive in the beauty industry.</p>
+            <div>
+                <a href="#" class="btn btn-info btn-lg me-2">List Your Booth</a>
+                <a href="#" class="btn btn-outline-warning btn-lg">Find a Booth</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Why Choose Us -->
+    <section id="why-choose-us" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="hair-stylist.jpg" alt="Happy hairstylist" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4">Why Choose Us</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="fas fa-check text-success me-2"></i> Hassle-Free Listings – Easily list your available salon booths with photos, pricing, and amenities.</li>
+                        <li class="mb-3"><i class="fas fa-check text-success me-2"></i> Verified Spaces – Find and rent high-quality salon booths in your area.</li>
+                        <li class="mb-3"><i class="fas fa-check text-success me-2"></i> Flexible Rentals – Choose from daily, weekly, or monthly rentals that fit your needs.</li>
+                        <li class="mb-3"><i class="fas fa-check text-success me-2"></i> No No Hidden Fees – Transparent pricing with no middleman markups.</li>
+                    </ul>
+                    <a href="#" class="btn btn-info">Get Started Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="works-image py-5 text-white">
+        <div class="container">
+            <h2 class="text-center mb-5">How It Works</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-list-alt fa-3x mb-3 text-warning"></i>
+                    <h4>1. Create a Listing</h4>
+                    <p>Salon Owners: Create a listing, set your price, and connect with stylists.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-search fa-3x mb-3 text-warning"></i>
+                    <h4>2. Browse Booths</h4>
+                    <p>Stylists: Browse available booths by location, amenities, and pricing.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-calendar-check fa-3x mb-3 text-warning"></i>
+                    <h4>3. Book & Work</h4>
+                    <p>Secure your rental and start servicing clients immediately.</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-info me-2">List Your Booth</a>
+                <a href="#" class="btn btn-outline-primary">Find a Booth</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Listings -->
+    <section id="featured-listings" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Listings</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="saloon-booth.jpg" class="card-img-top" alt="Luxury Salon in Los Angeles">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Salon in Los Angeles</h5>
+                            <p class="card-text">$250/week - Includes styling chair, shampoo station.</p>
+                            <a href="#" class="btn btn-info">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="saloon-booth.jpg" class="card-img-top" alt="Downtown NYC Salon Space">
+                        <div class="card-body">
+                            <h5 class="card-title">Downtown NYC Salon Space</h5>
+                            <p class="card-text">$100/day - Private station with 24/7 access.</p>
+                            <a href="#" class="btn btn-info">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="saloon-booth.jpg" class="card-img-top" alt="Miami Beauty Studio">
+                        <div class="card-body">
+                            <h5 class="card-title">Miami Beauty Studio</h5>
+                            <p class="card-text">$300/month - Shared space with premium amenities.</p>
+                            <a href="#" class="btn btn-info">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-info">See More Listings</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section id="success-stories" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Success Stories from Salon Professionals</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"This platform helped me find a high-end salon space where I could grow my business and work on my own terms. Highly recommend!"</p>
+                            <footer class="blockquote-footer">Jessica R., Hairstylist</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"I listed my available booths and found reliable stylists within a week! Super easy process."</p>
+                            <footer class="blockquote-footer">Sarah M., Salon Owner</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-info">Join Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benifits of Banana-->
+    <div class="section about-us mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 align-self-center order-lg-1">
+              <div class="section-heading">
+                <h2>Frequently Asked Questions</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis commodi voluptatibus ab minus molestiae eius asperiores quaerat, delectus cumque ipsam, illum in obcaecati et rerum error at dolorum deserunt quod omnis. Nulla illo recusandae in perferendis tempore maiores nobis laudantium?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 order-lg-0">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                    How much does it cost to list a booth?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      AListing is free, and you only pay a small fee when a stylist books your space
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                    Can I rent a booth for just a few days?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                        You’ll receive the salon’s contact details and can arrange your move-in right away.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Lorem ipsum dolor sit amet consectetur adipisicing.?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quas dolor, aperiam culpa animi officia ipsam architecto id molestias quaerat!
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Call to Action -->
+    <section class="ready-image py-5">
+        <div class="container text-center text-white">
+            <h2 class="mb-4">Ready to Get Started?</h2>
+            <p class="lead mb-4">Salon Owners: List your available booths and connect with top stylists.<br>Stylists: Find the perfect rental and grow your clientele today.</p>
+            <a href="#" class="btn btn-info btn-lg me-2">List Your Booth</a>
+            <a href="#" class="btn btn-outline-warning btn-lg">Find a Booth</a>
+            <p class="mt-4">Need help? <a href="#">Contact Us</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Salon Booth Rentals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
